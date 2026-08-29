@@ -32,7 +32,7 @@ planned for release in October 2026.
 
 - **Three Ways Classical Test Theory Misleads for LLM Judges** — under review, NeurIPS 2026 Workshop on Reliable Evaluation for Language Models (JUDGe).
 - **The Unassembled Validity Argument: Constructing, Repairing and Circulating MMLU, 2020–2026** — BSc dissertation (STS Best Dissertation Prize). Six years of MMLU's construction, repair and circulation, and how harness-dependent score instability propagates into the capability claims and risk thresholds built on it.
-- **A Score Should Travel With Its Repair History** — position paper, under review, NeurIPS 2026 Workshop on AI for Meta-Science.
+- **A Score Should Travel With Its Repair History** — position paper, under review, NeurIPS 2026 Workshop on AI for Meta-Science. Preprint: [10.31235/osf.io/7bg8r_v1](https://doi.org/10.31235/osf.io/7bg8r_v1).
 - **The Price of Intelligence: A Quality-Adjusted Price Index for AI Inference** — under review, NeurIPS 2026 EconML Workshop. 87% of the price decline is invisible to matched-model methods.
 - **From Advisor to Voting Teammate** — Workshop on Human-Agent Collaboration, [ACM CHI 2026](https://chi26workshop-human-agent-collaboration.hailab.io/assets/papers/36%20-%20From%20Advisor%20to%20Voting%20Teammate%20Institutional%20Authority%20and%20Information%20Structures%20of%20AI%20Agents%20in%20Bounded-Rational%20Human%20Groups.pdf) (co-author).
 - **Automation Risk and Wage Dynamics in the United Kingdom** — SSRN working paper, [10.2139/ssrn.5736503](https://doi.org/10.2139/ssrn.5736503).
