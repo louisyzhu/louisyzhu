@@ -1,4 +1,4 @@
-## Louis Yiven Zhu
+## Louis Zhu
 
 Measurement and validity in AI evaluation. MSc candidate at the **Oxford Internet Institute**,
 University of Oxford (St Antony's College).
