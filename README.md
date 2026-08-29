@@ -1,7 +1,7 @@
-## Louis Zhu
+## Louis Yiven Zhu
 
 Measurement and validity in AI evaluation. MSc candidate at the **Oxford Internet Institute**,
-University of Oxford.
+University of Oxford (St Antony's College).
 
 Hi, I'm [Louis](https://looloo-dot.github.io/). Evaluation results shape how AI systems are
 priced, deployed and regulated — my research asks what licenses the inference from *score* to
@@ -37,6 +37,11 @@ planned for release in October 2026.
 - **From Advisor to Voting Teammate** — Workshop on Human-Agent Collaboration, [ACM CHI 2026](https://chi26workshop-human-agent-collaboration.hailab.io/assets/papers/36%20-%20From%20Advisor%20to%20Voting%20Teammate%20Institutional%20Authority%20and%20Information%20Structures%20of%20AI%20Agents%20in%20Bounded-Rational%20Human%20Groups.pdf) (co-author).
 - **Automation Risk and Wage Dynamics in the United Kingdom** — SSRN working paper, [10.2139/ssrn.5736503](https://doi.org/10.2139/ssrn.5736503).
 - **When Should Neural Data Inform Welfare?** — working paper, [arXiv:2511.19548](https://doi.org/10.48550/arXiv.2511.19548).
+
+### Service
+
+Invited Reviewer, [NeurIPS 2026 Trust-AI-Eval (TAE) Workshop](https://tai-eval.github.io/) —
+*Can We Trust AI Evaluation?*
 
 Core contributor to the [EvalEval Coalition](https://evalevalai.com) (Hugging Face · Edinburgh ·
 EleutherAI), owning the validity sections of the coalition's *Science of Evaluations* paper.
