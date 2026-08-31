@@ -41,8 +41,10 @@ planned for release in October 2026.
 
 ### Service
 
-Invited Reviewer, [NeurIPS 2026 Trust-AI-Eval (TAE) Workshop](https://tai-eval.github.io/) —
-*Can We Trust AI Evaluation?*
+Invited Reviewer at two NeurIPS 2026 workshops:
+
+- [Trust-AI-Eval (TAE)](https://tai-eval.github.io/) — *Can We Trust AI Evaluation?*
+- [EconML: Economics for Machine Learning](https://econml26-workshop.github.io/)
 
 Core contributor to the [EvalEval Coalition](https://evalevalai.com) (Hugging Face · Edinburgh ·
 EleutherAI), owning the validity sections of the coalition's *Science of Evaluations* paper.
