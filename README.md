@@ -1,64 +1,54 @@
 ## Louis Yiven Zhu
 
-Measurement and validity in AI evaluation. MSc candidate at the **Oxford Internet Institute**,
-University of Oxford.
-
-Hi, I'm [Louis](https://louisyzhu.github.io/). Evaluation results shape how AI systems are
-priced, deployed and regulated — my research asks what licenses the inference from *score* to
-*claim*. I apply psychometric methods, from item response theory to argument-based validity, to
-test whether benchmarks and LLM-judge pipelines actually function as measurement instruments.
-I also follow the numbers downstream, tracing how scores gain credibility in model reports and
-governance documents, and using econometric methods to ask what measured capability is worth.
-
-Mostly Python (PyTorch, scikit-learn, HuggingFace) and R, with Stata for panel work.
-
-### Selected work
-
-| Project | What it asks | Approach |
-|---|---|---|
-| **[One Capability or Many?](https://github.com/louisyzhu/frontier-ai-economic-validity)** | Do frontier AI benchmarks measure one capability or many — and do "economic" benchmarks add anything over general model progress? | Pre-registered latent-variable study over a hash-pinned snapshot of 421 model configurations across twelve benchmarks. Exploratory factor analysis plus a leave-one-benchmark-out predictive test: a single factor explains 74.5% of common variance and is strongly associated with release date (R² = 0.505), and economic benchmarks carry only limited incremental validity over a general-capability index (pooled ΔMSE = 0.037). |
-| **[Three Ways CTT Misleads for LLM Judges](https://github.com/louisyzhu/llm-judge-reliability)** | Do the standard reliability statistics still mean what they appear to mean when the rater is a language model? | Reproducibility bundle for the paper. A 210-item judge bank with element-level gold and judge verdicts, implementations of KR-20/KR-21, intra-item phi, beta-binomial MLE and Livingston–Lewis classification accuracy, plus the simulation sweeps. Measured quantities reproduce bit-for-bit: KR-20 of 0.5223 on judge verdicts against 0.5231 on gold, per-element error 4.72%, judge–gold correlation 0.921. |
-| **[A Parliament Language Model](https://github.com/louisyzhu/hansard-char-lm)** | Where do you spend a fixed parameter budget when context and capacity compete for it? | A 273,939-parameter GRU written from scratch in PyTorch on 2.1M characters of Hansard, under a 500k-parameter cap and a no-attention rule. Perplexity 4.0 against a bigram's 11.5 — but the point is the controls: a token-matched arm and a position-wise evaluation take the headline effect from 0.398 to 0.041. |
-| **[AI Risk and UK Wages](https://github.com/louisyzhu/ai-risk-uk-wage-panel)** | Did occupations more exposed to automation see their pay diverge after 2016? | UK occupation-year panel, 2014–2023, 367 occupations, built from ONS automation-risk scores and ASHE microdata. Two-way fixed effects clustered by occupation. The risk-by-post-2016 interaction comes out positive and precise, which is the opposite of the naive prior and wants explaining. |
-| **[Automation Workforce Simulation](https://github.com/louisyzhu/abm-labor-market-automation)** | How do employment, wages and skill composition co-evolve under an automation shock? | Agent-based model in R: 2,000 heterogeneous workers, configurable shock and retraining dynamics. Fully seeded and reproducible. |
-| **[Double Machine Learning](https://github.com/louisyzhu/double-ml-causal-inference)** | Can ML nuisance estimators support causal inference without inheriting regularisation bias? | DML-PLIV with cross-fitting and the R-learner on simulated data with known ground truth, plus a policy-targeting evaluation. |
-| **[ABM-ACE](https://github.com/louisyzhu/abm-ace)** | How do adaptive agents, climate shocks and inequality interact under different policy regimes? | An agent-based research sandbox with a fully parameterised CLI, so every run is reproducible and auditable. |
-| **[Term Life Insurance Demand](https://github.com/louisyzhu/term-life-insurance-demand)** | Which household characteristics predict life-insurance coverage, and does regularisation beat transparent OLS? | Two-margin design on 2004 SCF data; Ridge and Lasso against an interpretable benchmark over 30 repeated splits. |
-| **[Marshall Investment Fund](https://github.com/louisyzhu/MIF-Site)** | — | Site for a student-managed long-only equity fund, [live on GitHub Pages](https://louisyzhu.github.io/MIF-Site/). Static HTML/CSS/JS, no build step. |
-
-`benchprobe`, a PyTorch package for psychometric analysis of benchmark score matrices, is
-planned for release in October 2026.
-
-### Selected writing
-
-- **One Capability or Many? Testing the Economic Validity of Frontier AI Evaluation** — under review, NeurIPS 2026 Trust-AI-Eval (TAE) Workshop. [arXiv:2608.29420](https://arxiv.org/abs/2608.29420) · [analysis plan](https://doi.org/10.17605/OSF.IO/VD34J) · [code and data](https://github.com/louisyzhu/frontier-ai-economic-validity).
-- **Three Ways Classical Test Theory Misleads for LLM Judges** — under review, NeurIPS 2026 Workshop on Reliable Evaluation for Language Models (JUDGe). Argues that KR-20, the dependability index and Livingston–Lewis classification accuracy are systematically misindexed for LLM-as-judge pipelines. [Code and data](https://github.com/louisyzhu/llm-judge-reliability).
-- **The Unassembled Validity Argument: Constructing, Repairing and Circulating MMLU, 2020–2026** — BSc dissertation (STS Best Dissertation Prize). Six years of MMLU's construction, repair and circulation, and how harness-dependent score instability propagates into the capability claims and risk thresholds built on it.
-- **A Score Should Travel With Its Repair History** — position paper, under review at two NeurIPS 2026 workshops: [AI for Meta-Science](https://ai4metascience.org/) and [AI & Science: Evolution or Extinction?](https://aiscik.github.io/) (AISciK). Preprint: [10.31235/osf.io/7bg8r_v1](https://doi.org/10.31235/osf.io/7bg8r_v1).
-- **The Price of Intelligence: A Quality-Adjusted Price Index for AI Services** — under review, NeurIPS 2026 EconML Workshop. Builds a quality-adjusted price index from IRT-estimated capability; 87% of the price decline is invisible to matched-model methods. [arXiv:2608.29843](https://arxiv.org/abs/2608.29843) · [pre-registration](https://doi.org/10.17605/OSF.IO/5UQJ2) · [dataset](https://doi.org/10.5281/zenodo.22177190) ([Hugging Face mirror](https://huggingface.co/datasets/louisyzhu/price-of-intelligence)).
-- **From Advisor to Voting Teammate** — Workshop on Human-Agent Collaboration, [ACM CHI 2026](https://chi26workshop-human-agent-collaboration.hailab.io/assets/papers/36%20-%20From%20Advisor%20to%20Voting%20Teammate%20Institutional%20Authority%20and%20Information%20Structures%20of%20AI%20Agents%20in%20Bounded-Rational%20Human%20Groups.pdf) (co-author).
-- **Automation Risk and Wage Dynamics in the United Kingdom** — SSRN working paper, [10.2139/ssrn.5736503](https://doi.org/10.2139/ssrn.5736503).
-- **When Should Neural Data Inform Welfare? A Critical Framework for Policy Uses of Neuroeconomics** — under review at the [UCL Journal of Economics](https://student-journals.ucl.ac.uk/UJE/) following an invited minor revision. [arXiv:2511.19548](https://doi.org/10.48550/arXiv.2511.19548).
-
-### Service
-
-Invited Reviewer at two NeurIPS 2026 workshops:
-
-- [Trust-AI-Eval (TAE)](https://tai-eval.github.io/) — *Can We Trust AI Evaluation?*
-- [EconML: Economics for Machine Learning](https://econml26-workshop.github.io/)
-
-Core contributor to the [EvalEval Coalition](https://evalevalai.com) (Hugging Face · Edinburgh ·
-EleutherAI), owning the validity sections of the coalition's *Science of Evaluations* paper.
-
-### Currently
-
-Frontier model evaluation at the Oxford Internet Institute, with a focus on whether capability
-measurements hold up as economic indicators. Preparing for doctoral study from 2027.
-
-### Elsewhere
-
 [![Website](https://img.shields.io/badge/Website-louisyzhu.github.io-24292F?style=flat-square&logo=githubpages&logoColor=white)](https://louisyzhu.github.io/)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=XCeO1nIAAAAJ&hl=en)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--5579--0340-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-5579-0340)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yiven--z-0A66C2?style=flat-square)](https://www.linkedin.com/in/yiven-z/)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Datasets-FFD21E?style=flat-square&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/louisyzhu/price-of-intelligence)
+
+**Measurement in AI evaluation.** MSc, Oxford Internet Institute.
+
+I work on whether benchmark scores and LLM-judge pipelines actually behave like measurement
+instruments — and on what happens to the claims built on them when they don't. In practice
+that means a lot of careful data work: pinned snapshots, pre-registered analyses, and
+reproduction bundles that regenerate every number in a paper.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Stata](https://img.shields.io/badge/Stata-1A5F7A?style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
+
+### Featured
+
+| Project | Stack |
+|---|---|
+| **[Three Ways CTT Misleads for LLM Judges](https://github.com/louisyzhu/llm-judge-reliability)**<br>Do the standard reliability statistics still mean what they seem to when the rater is a language model? Full reproduction bundle — 210-item judge bank, estimators, sweeps, figures. Measured quantities reproduce bit-for-bit. | `Python` `psychometrics`<br>`MIT` + `CC BY 4.0` |
+| **[One Capability or Many?](https://github.com/louisyzhu/frontier-ai-economic-validity)**<br>Do frontier AI benchmarks measure one capability or several? Pre-registered factor analysis over a hash-pinned snapshot of 421 model configurations, with leave-one-benchmark-out prediction. | `Python` `EFA` `nested CV`<br>`pre-registered` |
+| **[A Parliament Language Model](https://github.com/louisyzhu/hansard-char-lm)**<br>A 273k-parameter GRU built from scratch on 2.1M characters of Hansard, under a hard budget and a no-attention rule. The point isn't the perplexity — it's the controls that cut the headline effect from 0.398 to 0.041. | `PyTorch` `deep learning`<br>`from scratch` |
+| **[AI Risk and UK Wages](https://github.com/louisyzhu/ai-risk-uk-wage-panel)**<br>Did occupations more exposed to automation see pay diverge after 2016? An occupation-year panel built from ONS automation-risk scores and ASHE microdata, 367 occupations, 2014–2023. | `Stata` `panel data`<br>`two-way FE` |
+
+Also: [agent-based labour market](https://github.com/louisyzhu/abm-labor-market-automation) ·
+[double ML](https://github.com/louisyzhu/double-ml-causal-inference) ·
+[ABM-ACE](https://github.com/louisyzhu/abm-ace) ·
+[insurance demand](https://github.com/louisyzhu/term-life-insurance-demand) ·
+[Marshall Investment Fund site](https://github.com/louisyzhu/MIF-Site)
+
+`benchprobe`, a PyTorch package for psychometric analysis of benchmark score matrices, is planned for October 2026.
+
+### Writing
+
+- **One Capability or Many?** — NeurIPS 2026 TAE Workshop (under review). [arXiv](https://arxiv.org/abs/2608.29420) · [analysis plan](https://doi.org/10.17605/OSF.IO/VD34J) · [code](https://github.com/louisyzhu/frontier-ai-economic-validity)
+- **Three Ways Classical Test Theory Misleads for LLM Judges** — NeurIPS 2026 JUDGe Workshop (under review). [code and data](https://github.com/louisyzhu/llm-judge-reliability)
+- **The Price of Intelligence: A Quality-Adjusted Price Index for AI Services** — NeurIPS 2026 EconML Workshop (under review). [arXiv](https://arxiv.org/abs/2608.29843) · [pre-registration](https://doi.org/10.17605/OSF.IO/5UQJ2) · [dataset](https://doi.org/10.5281/zenodo.22177190)
+- **A Score Should Travel With Its Repair History** — under review at two NeurIPS 2026 workshops, [AI for Meta-Science](https://ai4metascience.org/) and [AI & Science](https://aiscik.github.io/) (AISciK). [preprint](https://doi.org/10.31235/osf.io/7bg8r_v1)
+- **From Advisor to Voting Teammate** — [Workshop on Human-Agent Collaboration, ACM CHI 2026](https://chi26workshop-human-agent-collaboration.hailab.io/assets/papers/36%20-%20From%20Advisor%20to%20Voting%20Teammate%20Institutional%20Authority%20and%20Information%20Structures%20of%20AI%20Agents%20in%20Bounded-Rational%20Human%20Groups.pdf) (co-author)
+- **When Should Neural Data Inform Welfare?** — under review at the [UCL Journal of Economics](https://student-journals.ucl.ac.uk/UJE/) after an invited minor revision. [arXiv](https://doi.org/10.48550/arXiv.2511.19548)
+- **The Unassembled Validity Argument: MMLU, 2020–2026** — BSc dissertation, STS Best Dissertation Prize.
+
+### Service
+
+Invited Reviewer, NeurIPS 2026 — [Trust-AI-Eval](https://tai-eval.github.io/) and [EconML](https://econml26-workshop.github.io/).
+Core contributor, [EvalEval Coalition](https://evalevalai.com) (Hugging Face · Edinburgh · EleutherAI).
