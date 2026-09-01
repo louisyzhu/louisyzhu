@@ -1,7 +1,7 @@
 ## Louis Yiven Zhu
 
 Measurement and validity in AI evaluation. MSc candidate at the **Oxford Internet Institute**,
-University of Oxford (St Antony's College).
+University of Oxford.
 
 Hi, I'm [Louis](https://louisyzhu.github.io/). Evaluation results shape how AI systems are
 priced, deployed and regulated — my research asks what licenses the inference from *score* to
