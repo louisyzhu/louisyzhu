@@ -6,12 +6,13 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-yiven--z-0A66C2?style=flat-square)](https://www.linkedin.com/in/yiven-z/)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Datasets-FFD21E?style=flat-square&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/louisyzhu/price-of-intelligence)
 
-**Measurement in AI evaluation.** MSc, Oxford Internet Institute.
+Hi, I'm [Louis](https://louisyzhu.github.io/) — I work on measurement in AI evaluation, and
+I'm doing an MSc at the Oxford Internet Institute.
 
-I work on whether benchmark scores and LLM-judge pipelines actually behave like measurement
-instruments — and on what happens to the claims built on them when they don't. In practice
-that means a lot of careful data work: pinned snapshots, pre-registered analyses, and
-reproduction bundles that regenerate every number in a paper.
+Mostly I ask whether benchmark scores and LLM-judge pipelines actually behave like measurement
+instruments, and what happens to the claims built on them when they don't. In practice that
+means a lot of careful data work: pinned snapshots, pre-registered analyses, and reproduction
+bundles that regenerate every number in a paper.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
