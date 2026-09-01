@@ -31,13 +31,14 @@ planned for release in October 2026.
 
 ### Selected writing
 
+- **One Capability or Many? Testing the Economic Validity of Frontier AI Evaluation** — under review, NeurIPS 2026 Trust-AI-Eval (TAE) Workshop. [arXiv:2608.29420](https://arxiv.org/abs/2608.29420) · [analysis plan](https://doi.org/10.17605/OSF.IO/VD34J) · [code and data](https://github.com/louisyzhu/frontier-ai-economic-validity).
 - **Three Ways Classical Test Theory Misleads for LLM Judges** — under review, NeurIPS 2026 Workshop on Reliable Evaluation for Language Models (JUDGe). Argues that KR-20, the dependability index and Livingston–Lewis classification accuracy are systematically misindexed for LLM-as-judge pipelines. [Code and data](https://github.com/louisyzhu/llm-judge-reliability).
 - **The Unassembled Validity Argument: Constructing, Repairing and Circulating MMLU, 2020–2026** — BSc dissertation (STS Best Dissertation Prize). Six years of MMLU's construction, repair and circulation, and how harness-dependent score instability propagates into the capability claims and risk thresholds built on it.
 - **A Score Should Travel With Its Repair History** — position paper, under review at two NeurIPS 2026 workshops: [AI for Meta-Science](https://ai4metascience.org/) and [AI & Science: Evolution or Extinction?](https://aiscik.github.io/) (AISciK). Preprint: [10.31235/osf.io/7bg8r_v1](https://doi.org/10.31235/osf.io/7bg8r_v1).
-- **The Price of Intelligence: A Quality-Adjusted Price Index for AI Inference** — under review, NeurIPS 2026 EconML Workshop. 87% of the price decline is invisible to matched-model methods.
+- **The Price of Intelligence: A Quality-Adjusted Price Index for AI Services** — under review, NeurIPS 2026 EconML Workshop. Builds a quality-adjusted price index from IRT-estimated capability; 87% of the price decline is invisible to matched-model methods. [arXiv:2608.29843](https://arxiv.org/abs/2608.29843) · [pre-registration](https://doi.org/10.17605/OSF.IO/5UQJ2) · [dataset](https://doi.org/10.5281/zenodo.22177190) ([Hugging Face mirror](https://huggingface.co/datasets/louisyzhu/price-of-intelligence)).
 - **From Advisor to Voting Teammate** — Workshop on Human-Agent Collaboration, [ACM CHI 2026](https://chi26workshop-human-agent-collaboration.hailab.io/assets/papers/36%20-%20From%20Advisor%20to%20Voting%20Teammate%20Institutional%20Authority%20and%20Information%20Structures%20of%20AI%20Agents%20in%20Bounded-Rational%20Human%20Groups.pdf) (co-author).
 - **Automation Risk and Wage Dynamics in the United Kingdom** — SSRN working paper, [10.2139/ssrn.5736503](https://doi.org/10.2139/ssrn.5736503).
-- **When Should Neural Data Inform Welfare?** — working paper, [arXiv:2511.19548](https://doi.org/10.48550/arXiv.2511.19548).
+- **When Should Neural Data Inform Welfare? A Critical Framework for Policy Uses of Neuroeconomics** — under review at the [UCL Journal of Economics](https://student-journals.ucl.ac.uk/UJE/) following an invited minor revision. [arXiv:2511.19548](https://doi.org/10.48550/arXiv.2511.19548).
 
 ### Service
 
