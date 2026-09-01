@@ -1,10 +1,10 @@
 ## Louis Yiven Zhu
 
-[![Website](https://img.shields.io/badge/Website-1F2328?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI5Ii8+PGVsbGlwc2UgY3g9IjEyIiBjeT0iMTIiIHJ4PSI0IiByeT0iOSIvPjxwYXRoIGQ9Ik0zIDEyaDE4TTQuNSA2LjVoMTVNNC41IDE3LjVoMTUiLz48L3N2Zz4=)](https://louisyzhu.github.io/)
-[![Google Scholar](https://img.shields.io/badge/Google_Scholar-1F2328?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=XCeO1nIAAAAJ&hl=en)
-[![ORCID](https://img.shields.io/badge/ORCID-1F2328?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-5579-0340)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1F2328?style=flat-square)](https://www.linkedin.com/in/yiven-z/)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-1F2328?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/datasets/louisyzhu/price-of-intelligence)
+[![Website](https://img.shields.io/badge/Website-4E8A7B?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI5Ii8+PGVsbGlwc2UgY3g9IjEyIiBjeT0iMTIiIHJ4PSI0IiByeT0iOSIvPjxwYXRoIGQ9Ik0zIDEyaDE4TTQuNSA2LjVoMTVNNC41IDE3LjVoMTUiLz48L3N2Zz4=)](https://louisyzhu.github.io/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=XCeO1nIAAAAJ&hl=en)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-5579-0340)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/yiven-z/)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/louisyzhu/price-of-intelligence)
 
 Hi, I'm [Louis](https://louisyzhu.github.io/), an MSc candidate at the Oxford Internet Institute
 working on the science of AI evaluation.
