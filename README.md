@@ -1,7 +1,7 @@
 ## Louis Yiven Zhu
 
 Measurement and validity in AI evaluation. MSc candidate at the **Oxford Internet Institute**,
-University of Oxford.
+University of Oxford (St Antony's College).
 
 Hi, I'm [Louis](https://louisyzhu.github.io/). Evaluation results shape how AI systems are
 priced, deployed and regulated — my research asks what licenses the inference from *score* to
@@ -57,7 +57,8 @@ measurements hold up as economic indicators. Preparing for doctoral study from 2
 
 ### Elsewhere
 
-[Website](https://louisyzhu.github.io/) ·
-[Google Scholar](https://scholar.google.com/citations?user=XCeO1nIAAAAJ&hl=en) ·
-[ORCID](https://orcid.org/0009-0001-5579-0340) ·
-[LinkedIn](https://www.linkedin.com/in/yiven-z/)
+[![Website](https://img.shields.io/badge/Website-louisyzhu.github.io-24292F?style=flat-square&logo=githubpages&logoColor=white)](https://louisyzhu.github.io/)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=XCeO1nIAAAAJ&hl=en)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--5579--0340-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-5579-0340)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-yiven--z-0A66C2?style=flat-square)](https://www.linkedin.com/in/yiven-z/)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Datasets-FFD21E?style=flat-square&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/louisyzhu/price-of-intelligence)
