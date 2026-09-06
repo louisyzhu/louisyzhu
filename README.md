@@ -6,8 +6,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/yiven-z/)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/louisyzhu)
 
-Hi, I'm [Louis](https://louisyzhu.github.io/), an incoming MSc student at the Oxford Internet
-Institute working on the science of AI evaluation.
+Hi, I'm [Louis](https://louisyzhu.github.io/), an MSc student at the Oxford Internet Institute
+working on the science of AI evaluation.
 
 Benchmarks are the exams AI models sit. I study what those scores measure and when they predict
 performance beyond the test, drawing on psychometrics (the statistics of human testing),
