@@ -65,5 +65,5 @@ Also worth a look. [Agent-based labour market](https://github.com/louisyzhu/abm-
 
 ### Service
 
-Invited reviewer, NeurIPS 2026 [Trust-AI-Eval](https://tai-eval.github.io/) and [EconML](https://econml26-workshop.github.io/) workshops.
+Invited reviewer, NeurIPS 2026 [Trust-AI-Eval](https://tai-eval.github.io/), [EconML](https://econml26-workshop.github.io/) and [JUDGe](https://judge2026.github.io/) workshops.
 Core contributor, [EvalEval Coalition](https://evalevalai.com) Science of Evaluations, on validity and evidentiary standards.
