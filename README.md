@@ -81,4 +81,4 @@ Invited reviewer, NeurIPS 2026 [Trust-AI-Eval](https://tai-eval.github.io/), [Ec
 
 Core contributor, [EvalEval Coalition](https://evalevalai.com). The Science of Evaluations paper, on validity and evidentiary standards, and Every Agent Ever, the coalition's shared schema for reporting, storing and analysing agent evaluation runs, extending the Every Eval Ever reporting standard.
 
-Research contributor, Relit, [ETH Zurich Center for Law & Economics](https://lawecon.ethz.ch/) (Prof. Elliott Ash). An LLM-based tool that audits whether a paper's claims are supported by and cited to the economics literature, in a large Python codebase under a full test suite and stated invariants. Benchmark workstream, mapping and clearing benchmark issues, running the build, audit and score cycle for perturbation testing, assessing annotator-agreement indices, and tracing how RePEc and CitEc metadata enter the corpus and citation graph.
+Research contributor, [ETH Zurich Center for Law & Economics](https://lawecon.ethz.ch/).
