@@ -75,14 +75,14 @@ Also worth a look. [Agent-based labour market](https://github.com/louisyzhu/abm-
 - **The Science of Evaluation.** EvalEval Coalition, core contributor on validity and evidentiary standards. In preparation for TMLR.
 - **The Unassembled Validity Argument.** How harness-dependent instability in MMLU propagates into the leaderboards and capability claims built on it. BSc dissertation, STS Best Dissertation Prize. Manuscript in preparation. Invited to present at the UCL Centre for Responsible Innovation.
 
-### Talks, service and collaborations
+### Research roles, talks and service
+
+Research Assistant to Prof. Elliott Ash, [Center for Law & Economics, ETH Zurich](https://lawecon.ethz.ch/), since August 2026. I audit the evaluation and data layers of [Relit](https://relit.ink/), the group's LLM pipeline that checks economics manuscripts against the literature they cite, through code review and data-source analysis reported as issues and commits to the group's codebase.
+
+Core contributor, [EvalEval Coalition](https://evalevalai.com). The Science of Evaluation paper, on validity and evidentiary standards, and Every Agent Ever, the coalition's reporting schema for agent evaluation runs.
 
 Invited talk on *One Capability or Many?*, Leverhulme CFI lab meeting, Cambridge, 29 October 2026.
 
 Invited reviewer, NeurIPS 2026 [Trust-AI-Eval](https://tai-eval.github.io/), [EconML](https://econml26-workshop.github.io/) and [JUDGe](https://judge2026.github.io/) workshops.
 
 Elected MSc Student Representative, Oxford Internet Institute, 2026/27.
-
-Core contributor, [EvalEval Coalition](https://evalevalai.com). The Science of Evaluation paper, on validity and evidentiary standards, and Every Agent Ever, the coalition's reporting schema for agent evaluation runs.
-
-Research contributor, [ETH Zurich Center for Law & Economics](https://lawecon.ethz.ch/).
