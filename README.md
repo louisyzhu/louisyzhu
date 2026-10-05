@@ -6,14 +6,16 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/yiven-z/)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/louisyzhu)
 
-Hi, I'm [Louis](https://louisyzhu.github.io/), an MSc student at the Oxford Internet Institute
-working on the science of AI evaluation.
+Hi, I'm [Louis](https://louisyzhu.github.io/), an MSc student at the Oxford Internet Institute.
 
-Benchmarks are the exams AI models sit. I work quantitatively, with psychometric models (factor
-analysis, item response theory, reliability), statistical learning (nested cross-validation,
-held-out prediction) and economics (price indices, panel data). Ahead of doctoral study from
-2027, I am asking whether evaluation results predict how systems perform once deployed,
-particularly in interactive and agentic settings.
+Benchmarks are the exams AI models sit. I work on the science of AI evaluation, treating
+benchmarks as measurement instruments and asking whether a score can be trusted, what it
+measures, what it predicts beyond the test and when a decision should rely on it. My five
+sole-authored 2026 preprints apply psychometric and statistical models to benchmark structure and
+repair history, LLM-judge reliability, quality-adjusted inference prices and undisclosed change in
+frontier safety frameworks; two are accepted at NeurIPS 2026 workshops and one is under review at
+ICLR 2027. For doctoral study from 2027, I ask whether evaluation results predict how systems
+perform once deployed, particularly in interactive and agentic settings.
 
 The work puts four questions to any evaluation.
 
@@ -22,11 +24,10 @@ The work puts four questions to any evaluation.
 3. What does the score predict outside the evaluation?
 4. When should a decision rely on it?
 
-Two sole-authored papers from this work are accepted at NeurIPS 2026 workshops, EconML and AI for
-Meta-Science, and the flagship paper is under review at ICLR 2027. This GitHub holds the research
-code behind them, and benchprobe, the library that re-derives the published numbers of three of
-them from pinned data. The repositories behind the papers state their reproduction tier, meaning
-which quantities are recomputed from source and which are regenerated from archived outputs.
+This GitHub holds the research code behind these papers, and benchprobe, the library that
+re-derives the published numbers of three of them from pinned data. The repositories behind the
+papers state their reproduction tier, meaning which quantities are recomputed from source and
+which are regenerated from archived outputs.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
