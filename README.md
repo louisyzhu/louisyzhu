@@ -9,14 +9,14 @@
 
 Hi, I'm [Louis](https://louisyzhu.github.io/), an MSc student at the Oxford Internet Institute.
 
-Benchmarks are the exams AI models sit. I work on the science of AI evaluation, treating
-benchmarks as measurement instruments and asking whether a score can be trusted, what it
-measures, what it predicts beyond the test and when a decision should rely on it. My five
-sole-authored 2026 preprints apply psychometric and statistical models to benchmark structure and
-repair history, LLM-judge reliability, quality-adjusted inference prices and undisclosed change in
-frontier safety frameworks; two are accepted at NeurIPS 2026 workshops and one is under review at
-ICLR 2027. For doctoral study from 2027, I ask whether evaluation results predict how systems
-perform once deployed, particularly in interactive and agentic settings.
+Benchmarks are the exams AI models sit. I study how to make evaluations of frontier AI
+trustworthy for real-world deployment, with a focus on measurement validity. My research examines
+the evaluation pipeline, from task design and agentic scaffolds to LLM-based graders. I ask how
+reasoning capabilities are measured and whether benchmark scores are reliable, interpretable and
+predictive of performance in high-stakes human–AI settings such as healthcare. Drawing on
+psychometrics, statistics and machine learning, I develop and validate evaluation methods that
+strengthen the evidence behind claims of AI capability and safety. Capability measures also
+underpin my work on the economics of AI, from inference pricing to labour markets.
 
 The work puts four questions to any evaluation.
 
@@ -25,10 +25,11 @@ The work puts four questions to any evaluation.
 3. What does the score predict outside the evaluation?
 4. When should a decision rely on it?
 
-This GitHub holds the research code behind these papers, and benchprobe, the library that
-re-derives the published numbers of three of them from pinned data. The repositories behind the
-papers state their reproduction tier, meaning which quantities are recomputed from source and
-which are regenerated from archived outputs.
+Two sole-authored papers from this work are accepted at NeurIPS 2026 workshops, EconML and AI for
+Meta-Science, and the flagship paper is under review at ICLR 2027. This GitHub holds the research
+code behind them, and benchprobe, the library that re-derives the published numbers of three of
+them from pinned data. The repositories behind the papers state their reproduction tier, meaning
+which quantities are recomputed from source and which are regenerated from archived outputs.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -60,7 +61,7 @@ Also worth a look. [Agent-based labour market](https://github.com/louisyzhu/abm-
 
 - **The Price of Intelligence.** A quality-adjusted price index for AI services. Accepted, NeurIPS 2026 EconML Workshop. Preprint, [arXiv 2608.29843](https://arxiv.org/abs/2608.29843). Journal version in preparation for the *Review of Income and Wealth*. [pre-registered validity audit](https://doi.org/10.17605/OSF.IO/5UQJ2) · [dataset](https://doi.org/10.5281/zenodo.22177190)
 - **A Score Should Travel With Its Repair History.** Position paper, accepted, NeurIPS 2026 Workshop on AI for Meta-Science. [SocArXiv preprint, v2](https://doi.org/10.31235/osf.io/7bg8r_v2). Full version in preparation for the ICML 2027 Position Paper Track.
-- **Neural Evidence and Behavioural Welfare Economics.** When can neuroeconomics inform policy? Accepted, UCL Journal of Economics, vol. 5, no. 1 (in proof). [article](https://doi.org/10.14324/111.444.2755-0877.2257) · [earlier version, arXiv 2511.19548](https://doi.org/10.48550/arXiv.2511.19548)
+- **Neural Evidence and Behavioural Welfare Economics.** When can neuroeconomics inform policy? *UCL Journal of Economics* 5(1), 2026. [article](https://doi.org/10.14324/111.444.2755-0877.2257) · [earlier version, arXiv 2511.19548](https://doi.org/10.48550/arXiv.2511.19548)
 - **From Advisor to Voting Teammate.** Workshop paper, [Workshop on Human-Agent Collaboration at CHI 2026](https://chi26workshop-human-agent-collaboration.hailab.io/assets/papers/36%20-%20From%20Advisor%20to%20Voting%20Teammate%20Institutional%20Authority%20and%20Information%20Structures%20of%20AI%20Agents%20in%20Bounded-Rational%20Human%20Groups.pdf). An agent-based simulation, co-authored.
 
 **Preprints and submitted manuscripts**
