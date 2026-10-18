@@ -13,7 +13,7 @@ Benchmarks are the exams AI models sit. I study how to make evaluations of front
 trustworthy for real-world deployment, with a focus on measurement validity. My research examines
 the evaluation pipeline, from task design and agentic scaffolds to LLM-based graders. I ask how
 reasoning capabilities are measured and whether benchmark scores are reliable, interpretable and
-predictive of performance in high-stakes human–AI settings such as healthcare. Drawing on
+predictive of performance in high-stakes human-AI settings such as healthcare. Drawing on
 psychometrics, statistics and machine learning, I develop and validate evaluation methods that
 strengthen the evidence behind claims of AI capability and safety. Capability measures also
 underpin my work on the economics of AI, from inference pricing to labour markets.
