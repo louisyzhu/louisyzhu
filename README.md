@@ -26,7 +26,7 @@ The work puts four questions to any evaluation.
 4. When should a decision rely on it?
 
 Two sole-authored papers from this work are accepted at NeurIPS 2026 workshops, EconML and AI for
-Meta-Science, and the flagship paper is under review at ICLR 2027. This GitHub holds the research
+Meta-Science, and two are under review, at ICLR 2027 and ACM FAccT 2027. This GitHub holds the research
 code behind them, and benchprobe, the library that re-derives the published numbers of three of
 them from pinned data. The repositories behind the papers state their reproduction tier, meaning
 which quantities are recomputed from source and which are regenerated from archived outputs.
