@@ -85,6 +85,6 @@ Core contributor, [EvalEval Coalition](https://evalevalai.com). The Science of E
 
 Invited talk on *One Capability or Many?*, Leverhulme CFI lab meeting, Cambridge, 29 October 2026.
 
-Invited reviewer, NeurIPS 2026 [Trust-AI-Eval](https://tai-eval.github.io/), [EconML](https://econml26-workshop.github.io/) and [JUDGe](https://judge2026.github.io/) workshops.
+Invited reviewer, [ACM FAccT 2027](https://facctconference.org/), and the NeurIPS 2026 [Trust-AI-Eval](https://tai-eval.github.io/), [EconML](https://econml26-workshop.github.io/) and [JUDGe](https://judge2026.github.io/) workshops.
 
 Elected MSc Student Representative, Oxford Internet Institute, 2026/27.
